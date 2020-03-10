@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "marlo-digital-platform-tfstate"
     prefix = "env/prod"
   }
 }
